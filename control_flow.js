@@ -26,6 +26,8 @@ if (isLoggedIn) {
 
 console.log("User Message:", userMessage);
 
+/* This code snippet is using a `switch` statement to determine the `userCategory` based on the value
+of the `userType` variable. */
 let userType = "subscriber";
 let userCategory;
 
@@ -44,3 +46,11 @@ switch (userType) {
 }
 
 console.log("User Category:", userCategory);
+
+/* The code snippet `let isAuthenticated = true; let authenticationStatus = isAuthenticated ?
+"Authenticated" : "Not Authenticated";` is using a ternary operator to assign a value to the
+variable `authenticationStatus` based on the value of the `isAuthenticated` variable. */
+let isAuthenticated = true;
+let authenticationStatus = isAuthenticated ? "Authenticated" : "Not Authenticated";
+
+console.log("Authentication Status:", authenticationStatus);
